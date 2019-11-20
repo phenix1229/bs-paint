@@ -58,3 +58,28 @@
 .square {
   transition: 0.5s;
 }
+
+.color-1{
+  width: 30px;
+  background-color: #cc0658;
+}
+
+.color-2{
+  width: 30px;
+  background-color: #1e62df;
+}
+
+.color-3{
+  width: 30px;
+  background-color: #512719;
+}
+
+.color-4{
+  width: 30px;
+  background-color: #08700f;
+}
+
+.color-5{
+  width: 30px;
+  background-color: white;
+}
