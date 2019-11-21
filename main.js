@@ -35,7 +35,10 @@ function changeColor(){
         } else if (colorCounter['color-3'] >= 21){
             window.alert('I hope you\'re painting trees.');
             colorCounter['color-3'] = -4000;
-        }
+        } else if (colorCounter['color-4'] >= 21){
+            window.alert('Paint that $$money$$. Or grass... Whatever...');
+            colorCounter['color-3'] = -4000;
+        } 
 }
 
 document.querySelectorAll('.palette-color').forEach(color => {color.addEventListener('click', changeBrushColor)});
