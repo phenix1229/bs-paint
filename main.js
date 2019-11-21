@@ -37,7 +37,7 @@ function changeColor(){
             colorCounter['color-3'] = -4000;
         } else if (colorCounter['color-4'] >= 21){
             window.alert('Paint that $$money$$. Or grass... Whatever...');
-            colorCounter['color-3'] = -4000;
+            colorCounter['color-4'] = -4000;
         } 
 }
 
